@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cabeçalho {
+    height: 20vh;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    margin-left: 70px ;
+    flex-direction: row;
+}
+
+.btn5s {
+    background-color: white;
+    margin: 2px;
+    width: 80px;
+    
+}
+
