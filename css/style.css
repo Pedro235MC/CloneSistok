@@ -1,12 +1,17 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
- @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-* {
+
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
+
+
+
+/* ___________________________HEADER (CABEÇALHO)___________________________________*/
 
 #cabeçalho {
     height: 50px;
@@ -34,7 +39,9 @@
     font-size: 15px;
     border: none;
     letter-spacing: 1px;
+    cursor: pointer;
 }
+
 
 #singin {
     background-color: white;
@@ -42,6 +49,7 @@
     font-size: 16px; 
     margin-left: 100px;
     transition-duration: 0.1s;
+    cursor: pointer;
 }
 
 #enter {
@@ -52,23 +60,31 @@
     width: 150px;
     background-color: white;
     transition-duration: 0,1s;
+    cursor: pointer
+}
+
+#enter:hover {
+    background-color: #2F4E8B;
+    color: white;
 }
 
 main {
 
     
-    padding-left: 50px;
+    padding-left: 60px;
     padding-top: 20px;
     padding-right: 40px;
 
 }
+
+/* ___________________________SEÇÂO 01___________________________________*/
 
 #section1 {
 
     
 }
 
-#subsection1 {
+#subsection11 {
     display: flex;
     flex-direction: row;
 }
@@ -79,7 +95,7 @@ main {
 }
 
 #sideimg {
-    margin-left: 415px;
+    margin-left: 290px;
 }
 
 #textleft > h1 {
@@ -105,10 +121,16 @@ main {
     height: 40px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
+    transition-duration: 0,2s;
+}
+
+#btncnh:hover {
+    background-color: #0e2147;
 
 }
 
-#subsection2 {
+#subsection12 {
     padding-top: 55px;
 }
 
@@ -123,22 +145,312 @@ main {
 }
 
 
+/* ___________________________SEÇÂO 02___________________________________*/
+
+
+
 #section2 {
-    display: flex;
-    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 20px;
 }
 
-#subsection21{
-    border: 2px solid red;
+#subsection21 {
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+#subsection21 > h1 {
+    font-size: 20px;
+    color: #4C5D73;
+    margin-bottom: 12px;
+}
+
+#subsection21 > h2 {
+    font-size: 30px;
+    
 }
 
 #subsection22 {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* ___________________________SEÇÂO 03___________________________________*/
+
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+#subsection31{
+    
+}
+
+#subsection32 {
     display: flex;
     flex-direction: row;
 }
 
+#subsection31 > h1 {
+    color:#4C5D73;
+    font-size: 20px;
+}
+
+#subsection31 > h2 {
+    margin-top: 12px;
+    font-size: 30px;
+}
 
 
-#section3 {}
 
-#section4 {}
+#subsection32{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+#rightimg {
+    width: 300px;
+    margin-top: 25px;
+    margin-right: 95px;
+}
+
+#textleft {
+    width: 60%;
+
+}
+
+
+#textleft > h1 {
+    color:#4C5D73;
+    font-size: 18px;
+}
+
+#textleft > h2 {
+    color:#4C5D73;
+    font-size: 18px;
+}
+
+#textleft > h3 {
+    color:#4C5D73;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -8px;
+}
+
+#btncase {
+    border: 1px solid #304F8C;
+    border-radius: 6px;
+    background-color: white;
+    color: #304F8C;
+    font-size: 15px;
+    width: 235px;
+    height: 30px;
+    margin-top: 70px;
+    cursor: pointer;
+    transition-duration: 0,1s;
+}
+
+
+#btncase:hover { background-color: #2F4E8B; color: white;}
+
+
+/* ______________________SEÇÂO 04___________________________________*/
+
+#section4 {
+    margin-bottom: 50px;
+}
+
+#subsection41 {}
+
+#subsection41 > h1 {
+    color:#4C5D73;
+    font-size: 20px;
+}
+
+#subsection41 > h2 {
+    margin-top: 12px;
+    font-size: 30px;
+}
+
+#subsection42 {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.atuaimg {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* _____________SEÇÂO 05___________________________________*/
+
+#section5 {
+
+}
+
+#subsection51 {
+
+}
+
+#subsection51 > h1{
+    color:#4C5D73;
+    font-size: 20px;
+}
+
+#subsection51 > h2{
+    margin-top: 12px;
+    font-size: 30px;
+}
+
+#subsection52 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: -60px;
+}
+
+.chooseplan {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    border-radius: 10px;
+}
+
+.modo {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.preço {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.preço > h1 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.preço > h2 {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.conteudo {
+    font-size: 13px;
+    color: #4C5D73;
+    margin-bottom: 40px;
+}
+
+#planpop {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 330px;
+    height: 260px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -30px;
+    background-color: #304F8C;
+    border-radius: 10px;
+}
+
+#pop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #94F2E9;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    margin-top: -23px;
+    margin-left: 40px;
+}
+
+#pop > h1 { font-size: 14px; color: #2F4E8B; }
+
+#planpop > h2 {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    font-weight: 200;
+}
+
+#poppreço {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#poppreço >h1 { font-weight: 800;
+    font-size: 30px;}
+
+#poppreço >h2 { font-weight: 300;
+    font-size: 15px; }
+
+#popconteudo { font-size: 13px;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+
+.btnescolha {
+    border: 1px solid #2F4E8B;
+    border-radius: 6px;
+    background-color: white;
+    color: #2F4E8B;
+    font-size: 13px;
+    font-weight: 600;
+    height: 40px;
+    width: 200px;
+    margin-left: 12px;
+    transition-duration: 0,2s;
+    cursor: pointer;
+
+}
+
+#btnpop {
+    border: 1px solid #2F4E8B;
+    border-radius: 6px;
+    background-color: white;
+    color: #2F4E8B;
+    font-size: 13px;
+    font-weight: 600;
+    height: 40px;
+    width: 200px;
+    margin-left: 12px;
+    transition-duration: 0,2s;
+    cursor: pointer;
+
+ }
+
+ #btnpop:hover { 
+    background-color: #0a1b3d;
+    color: white;
+ }
+
+.btnescolha:hover {
+    background-color: #2F4E8B;
+    color: white;
+} 
